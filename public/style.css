@@ -15,7 +15,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ebebeb;
+    background-color: rgb(46, 44, 44);
 }
 .title{
    margin: 20px 0; 
