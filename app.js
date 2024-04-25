@@ -26,7 +26,6 @@ function onConnection(socket) {
         socketConneced.delete(socket.id);
         io.emit('clients-total', socketConneced.size);
     })
-
     socket.on('message', (data) =>{
         socket.broadcast.emit('chat-message', data)
         console.log(data)
